@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    max-width: 100%;
+    max-height:100%;
+    color: black;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 20px;
+    /* background-color: #d29090; */
+}
+
+.navhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+}
+
+.navlist{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.navlist a{
+    margin-left: 20px;
+}
+.navlist h4{
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.logo span{
+    color: deepskyblue;
+}
+
+.atag{
+    font-size: 1.5rem;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+
+.head-info h2{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.689);
+    margin-top: 10px;
+}
+
+.head-img img{
+    border-radius: 24px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.head-img img:hover{
+    opacity: 0.8;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    margin-block: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.114);
+    gap: 10px;
+}
+.sec-info, .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sec-info p , .cards p {
+    color: rgba(0, 0, 0, 0.594);
+}
+.subsec , .subsec2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.sec-img img{
+    border-radius: 24px;
+    transition: 0.2s ease-in-out;
+}
+
+.sec-img img:hover{
+    opacity: 0.8;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 32px;
+}
+
+.cards{
+    max-width: 30%;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.p-bold{
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 12px;
+}
+
+.foot p{
+    color: rgba(0, 0, 0, 0.685);
+    font-size: 0.9rem;
+}
+
+.foot-list a{
+    margin-left: 16px;
+}
+
